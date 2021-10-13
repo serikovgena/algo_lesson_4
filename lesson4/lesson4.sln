@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson4", "lesson4.csproj", "{4AE5FEE1-7228-41EF-A038-C2F41A6AE148}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashArrayBenchMark", "..\HashArrayBenchMark\HashArrayBenchMark.csproj", "{9777A860-2323-44EC-BBEB-2C50E0A707BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4AE5FEE1-7228-41EF-A038-C2F41A6AE148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AE5FEE1-7228-41EF-A038-C2F41A6AE148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AE5FEE1-7228-41EF-A038-C2F41A6AE148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9777A860-2323-44EC-BBEB-2C50E0A707BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9777A860-2323-44EC-BBEB-2C50E0A707BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9777A860-2323-44EC-BBEB-2C50E0A707BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9777A860-2323-44EC-BBEB-2C50E0A707BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
