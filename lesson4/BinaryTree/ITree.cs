@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using lesson4.BinaryTree;
 
 namespace lesson4
 {
-    class ITree
-    {
-    }
+  public interface ITree {
+    BTreeNode GetRoot();
+    void AddItem(int value); // добавить узел
+    void RemoveItem(int value); // удалить узел по значению
+    BTreeNode GetNodeByValue(int value); //получить узел дерева по значению
+    void PrintTree(); //вывести дерево в консоль
+  }
 }
