@@ -7,6 +7,7 @@ namespace lesson4
     class Program {
         static void Main() {
           TestSearchingInArrayAndHashSet();
+          TestBTree();
         }
 
         static void TestSearchingInArrayAndHashSet() {
@@ -27,6 +28,18 @@ namespace lesson4
             using (new TimeLogger()) {
                 hashSet.TryGetValue(wantedString, out string searchingResult);
             }
+        }
+
+        static void TestBTree() {
+            BTree tree = new BTree();
+            tree.AddItem(6);
+            tree.AddItem(2);
+            tree.AddItem(11);
+            tree.AddItem(3);
+            tree.AddItem(9);
+            tree.AddItem(30);
+
+            tree.PrintTree();
         }
     }
 
